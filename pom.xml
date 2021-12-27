@@ -30,16 +30,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				    <cloudHubDeployment>
-				      <username>mk6</username>
-				      <environment>QA</environment>
-				      <workers>1</workers>
-				      <workerType>Micro</workerType>
-				      <applicationName>WorldTimeZone-service-mk</applicationName>
-				      <password>Versachi6^</password>
-				      <muleVersion>4.4.0</muleVersion>
-				      <objectStoreV2>true</objectStoreV2>
-				    </cloudHubDeployment>
+					<cloudHubDeployment>
+						<username>mk6</username>
+						<environment>QA</environment>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>WorldTimeZone-service-mk</applicationName>
+						<password>Versachi6^</password>
+						<muleVersion>4.4.0</muleVersion>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
