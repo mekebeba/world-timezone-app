@@ -31,15 +31,14 @@
 				<extensions>true</extensions>
 				<configuration>
 				    <cloudHubDeployment>
-				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>4.4.0</muleVersion>
-				      <username>mabay</username>
-				      <password>$unR1se1$92</password>
-				      <applicationName>WorldTimeZone-service</applicationName>
-				      <environment>Sandbox</environment>
-				      <region>us-east-2</region>
+				      <username>mk6</username>
+				      <environment>QA</environment>
 				      <workers>1</workers>
 				      <workerType>Micro</workerType>
+				      <applicationName>WorldTimeZone-service-mk</applicationName>
+				      <password>Versachi6^</password>
+				      <muleVersion>4.4.0</muleVersion>
+				      <objectStoreV2>true</objectStoreV2>
 				    </cloudHubDeployment>
 				</configuration>
 			</plugin>
